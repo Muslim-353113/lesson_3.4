@@ -1,0 +1,27 @@
+.app {
+  --bg: #1a1310;
+  --bg-card: #241b16;
+  --bg-hover: #2e231d;
+  --text: #f5ede6;
+  --text-muted: #a89a8f;
+  --accent: #d4a373;
+  --accent-2: #faedcd;
+  --border: #3a2d25;
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.app__main {
+  flex: 1;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 32px 24px 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
